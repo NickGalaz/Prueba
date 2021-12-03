@@ -52,10 +52,10 @@ font-family: 'Open Sans';
     background-color: rgb(23, 177, 197);
 }
 
-.card-img-top {
-  width: 100%;
-  height: 10vw;
-  object-fit: cover;
+.card img {
+  
+  max-height: 150px;
+ 
 }
 
 .card p{
@@ -88,4 +88,15 @@ footer {
 footer h1 {
     font-family: 'Oswald';
     font-size: 40px;
+
+}
+/* El media query funciona cuando se cumple cierta condicion, en este caso cuando el ancho de dispositivo sea de un máximo de 960px este modificará el .card img 
+sobre escribiendo los valores que te tenia anteriormente */
+@media screen and (max-width:960px){
+  .card img {
+  
+  max-height: 500px;
+ 
+}
+  
 }
