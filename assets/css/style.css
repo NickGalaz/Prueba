@@ -1,23 +1,20 @@
-/* html {
-    scroll-behavior: auto !important
-} */
-
-body{
+body {
   font-family: 'Open Sans', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: Helvetica;
+  font-family: 'Oswald', sans-serif;
+  font-family: Helvetica;
 }
-/*navbar*/
-.mynav{
-    background-color: #660066;
- width: 100vw;
- z-index: 1;
 
+/*navbar*/
+.mynav {
+  background-color: #660066;
+  width: 100vw;
+  z-index: 1;
 }
+
 .navbar-brand {
-    font-family: "Oswald";
-    font-size: 23px;
-    font-weight: 700;
+  font-family: "Oswald";
+  font-size: 23px;
+  font-weight: 700;
 }
 
 .nav-item {
@@ -27,29 +24,31 @@ font-family: Helvetica;
 
 /*Sobre nosotros*/
 #nosotros {
-color: white;
-font-family: 'Open Sans';
+  color: white;
+  font-family: 'Open Sans';
 }
+
 #nosotros {
   background-color: black;
 }
-.fondo {background-color: rgb(23, 177, 197);}
+
+.fondo {
+  background-color: rgb(23, 177, 197);
+}
 
 .hr-section {
   border: 1px solid rgb(23, 177, 197)
 }
 
-
-
 /*Destacados*/
 #destacados {
-    background-color: black;
-    font-family: 'Oswald';
-    color: white;
+  background-color: black;
+  font-family: 'Oswald';
+  color: white;
 }
 
-.card{
-    background-color: rgb(23, 177, 197);
+.card {
+  background-color: rgb(23, 177, 197);
 }
 
 .card-img-top {
@@ -58,15 +57,14 @@ font-family: 'Open Sans';
   object-fit: cover;
 }
 
-.card p{
+.card p {
   font-family: 'Open Sans';
   font-size: 600;
 }
 
-.card h4{
+.card h4 {
   font-family: 'Oswald';
   font-size: 200;
-  
 }
 
 /*Contacto*/
@@ -74,18 +72,18 @@ font-family: 'Open Sans';
   background-color: black;
   color: white;
 }
-#contacto h1{
-    font-family: 'Oswald';
-    font-size: 52px;
-    
+
+#contacto h1 {
+  font-family: 'Oswald';
+  font-size: 52px;
 }
 
 /* Footer*/
 footer {
-    background-color: rgb(23, 177, 197);
+  background-color: rgb(23, 177, 197);
 }
 
 footer h1 {
-    font-family: 'Oswald';
-    font-size: 40px;
+  font-family: 'Oswald';
+  font-size: 40px;
 }
